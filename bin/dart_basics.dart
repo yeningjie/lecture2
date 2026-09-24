@@ -1,5 +1,13 @@
-import 'package:dart_basics/dart_basics.dart' as dart_basics;
+import 'types_demo.dart';
+import 'func_demo.dart';
+import 'flow_demo.dart';
 
+// dart_basics 入口：统一调用三组示例并输出
 void main(List<String> arguments) {
-  print('Hello world: ${dart_basics.calculate()}!');
+  typesDemo();
+  print('');
+  funcDemo();
+  print('');
+  flowDemo();
+  print('\n全部示例运行完毕。');
 }
